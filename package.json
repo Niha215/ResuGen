@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "dev": "cd client && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
@@ -14,6 +15,8 @@
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1",
     "mongoose": "^9.5.0"
   }
 }

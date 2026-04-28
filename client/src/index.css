@@ -175,6 +175,15 @@ button:not(.save-btn):hover {
   background: #5e56a3;
 }
 
+.logout-btn {
+  background: #ef4444;
+  color: white;
+  margin-left: 10px;
+}
+.logout-btn:hover {
+  background: #dc2626;
+}
+
 .form button:first-of-type {
   background: transparent;
   color: #7469B6;
@@ -216,8 +225,8 @@ body > div[style] button:hover {
 }
 
 .preview {
-  overflow-y: auto;
-  max-height: 100vh;
+  overflow-y: visible;
+  max-height: none;
 }
 /*
    RESPONSIVE

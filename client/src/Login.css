@@ -1,0 +1,104 @@
+/* Full screen center */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card box */
+.login-box {
+  background: white;
+  padding: 40px;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* 🔥 App Name */
+.app-name {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  color: #667eea;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+/* Tagline */
+.tagline {
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+/* Title */
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 20px;
+}
+
+/* Inputs */
+.login-box input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Input focus */
+.login-box input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+/* Button */
+.login-box button {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover */
+.login-box button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+/* Small text */
+.login-box p {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  cursor: pointer;
+}
+
+/* Toggle link */
+.toggle-text span {
+  color: #667eea;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Clear data */
+.clear-data {
+  color: red;
+  font-size: 11px;
+}
